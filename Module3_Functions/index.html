@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 3</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="JS/script.js"></script>
+
+</head>
+<body class="body">
+
+    <h1>Module 3 Functions</h1>
+   <hr>
+<br>
+<br>
+<br>
+<p id= "demo" ></p>
+        <script>
+        var person = prompt ('Please enter your name', 'your name');
+        if (person!= null) {
+               document.getElementById("demo").innerHTML = 'Hello ' + person + ' I hope you like math because here are a few problems for you!';
+             }
+             </script>
+
+<br>
+<br>
+<br>
+
+<div>
+    <p>
+        <script>
+            document.write( '(1)  Sarah and Morgan were eating pie after dinner. They each had two pieces of pie. How much pie was left?');
+        </script>
+<br>
+<br>
+       
+<p> Morgan = 2</p>
+<p> Sarah = 2 </p>
+<p> Total pieces of pie = 8</p>
+
+<script>
+var total_pieces_of_pie = 8;
+var pieces_eaten_by_Sarah = 2;
+var pieces_eaten_by_Morgan = 2; 
+var total_pieces_of_pie_left = total_pieces_of_pie - pieces_eaten_by_Morgan - pieces_eaten_by_Sarah;
+
+</script>
+
+
+<p>Total pieces of pie left = 4 </p> 
+
+</p>
+<script> 
+    if(total_pieces_of_pie_left < 5){
+        document.write('That is right the answer is 4!')
+    }
+    </script>
+    </div>
+<br>
+<br>
+<br>
+<br>
+
+<div>
+<p>(2) Luke and Madalyn were having a blowing bubble contest. Luke blew 12 bubbles in 10 seconds and Madalyn blew 5 bubbles. 
+    How many more bubbles did Luke blow than Madalyn?
+</p>
+<p> Press the buttom below for the answer!</p>
+<button onclick="alert ('The answer is 7 more bubbles than Madalyn')">Click Me!</button>
+
+    </div>
+<br>
+<br>
+<br>
+<br>
+
+    <div>
+        <p>(3) Luke and Sarah were sharing a candy bar that had 4 pieces. How many pieces did each person get?
+        </p>
+        <p> Type your answer in the field below!</p>
+        <input id="myInput" type="text">
+
+        <button onclick="myfunction()">Press Here</button>
+
+        <p id="demo"></p>
+        
+            </div>
+
+
+
+</body>
+
+
+
+
+</html>
