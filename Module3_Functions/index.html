@@ -15,7 +15,7 @@
 <br>
 <br>
 <br>
-<p id= "demo" ></p>
+<strong><p id= "demo" class="center"></p></strong>
         <script>
         var person = prompt ('Please enter your name', 'your name');
         if (person!= null) {
@@ -26,18 +26,36 @@
 <br>
 <br>
 <br>
+<ol>
+
+<div>
+<P>Before we get started with some math problems, I'm going to need you to first <br>
+    click the button below to change the heading of this assignment because it's wrong. We are now focused on The DOM <br> or
+    Document Object Model. Thank you and I hope you have fun playing around on my site!
+</P>
+</div>
+
+<button onclick="changeHeader()">Please Press Before Continuing</button>
+
+
+<br>
+<br>
+
 
 <div>
     <p>
+        <li>
         <script>
-            document.write( '(1)  Sarah and Morgan were eating pie after dinner. They each had two pieces of pie. How much pie was left?');
+            document.write( 'Sarah and Morgan were eating pie after dinner. They each had two pieces of pie. How much pie was left?');
         </script>
+        </li>
 <br>
 <br>
-       
+    
 <p> Morgan = 2</p>
 <p> Sarah = 2 </p>
 <p> Total pieces of pie = 8</p>
+
 
 <script>
 var total_pieces_of_pie = 8;
@@ -63,9 +81,11 @@ var total_pieces_of_pie_left = total_pieces_of_pie - pieces_eaten_by_Morgan - pi
 <br>
 
 <div>
-<p>(2) Luke and Madalyn were having a blowing bubble contest. Luke blew 12 bubbles in 10 seconds and Madalyn blew 5 bubbles. 
+    <li>
+<p>Luke and Madalyn were having a blowing bubble contest. Luke blew 12 bubbles in 10 seconds and Madalyn blew 5 bubbles. <br>
     How many more bubbles did Luke blow than Madalyn?
 </p>
+</li>
 <p> Press the buttom below for the answer!</p>
 <button onclick="alert ('The answer is 7 more bubbles than Madalyn')">Click Me!</button>
 
@@ -76,17 +96,54 @@ var total_pieces_of_pie_left = total_pieces_of_pie - pieces_eaten_by_Morgan - pi
 <br>
 
     <div>
-        <p>(3) Luke and Sarah were sharing a candy bar that had 4 pieces. How many pieces did each person get?
+        <li>
+        <p>Luke and Sarah were sharing a candy bar that had 4 pieces. How many pieces did each person get?
         </p>
+    </li>
         <p> Type your answer in the field below!</p>
         <input id="myInput" type="text">
 
-        <button onclick="myfunction()">Press Here</button>
+        <button onclick="candyBar()">Press Here</button>
 
         <p id="demo"></p>
         
             </div>
+ <br>
+<br>
+<br>
+<br>
 
+
+            <div>
+                <li>
+                <p>Morgan and Maddy opened a fresh lemonade stand in front of their house. They were 
+                    open for 3 hours.<br> During the first hour they got 2 customers. The second hour they got 5
+                    customers and on the last hour they were open they got 4 customers.<br> How many customers
+                    did the girls have all 3 hours they were open?
+                </p>
+            </li>
+
+                <p>From this list of options below. Which is the right answer?</p>
+
+                <ul id="answerChoices">
+                    <li>5</li>
+                    <li>11</li>
+                    <li>25</li>
+                </ul>
+                <br>
+                <P>Click the button below to reveal the right answer.</P>
+               
+                <button onclick="myfunction()">Press Here</button>
+
+
+
+
+
+
+
+
+            </div>
+        </ol>
 
 
 </body>

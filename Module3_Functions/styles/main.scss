@@ -1,15 +1,19 @@
 @import './vendor/normalize';
 
 .body{
-background-color:black;
-color: White;
+background-color:rgba(199, 157, 65, 0.781);
+color: rgb(0, 0, 0);
 }
 
 
 
 
 h1{
-    color: limegreen;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
+.center{
+    text-align: center;
+    
+}
