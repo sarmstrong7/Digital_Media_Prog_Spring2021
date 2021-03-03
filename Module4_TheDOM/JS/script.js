@@ -1,12 +1,16 @@
 
-alert('Welcome to my page, I hope you like what you see!')
+
 
 var test ='Thank you for visting my page!';
 console.log(test);
 
 
 function changeHeader(){
-  document.getElementsByTagName("h1")[0].innerHTML = "Module 4 The DOM";
+  document.getElementsByTagName("h1")[0].innerHTML = "Module 5 Event Handlers";
+}
+
+function changebackground(){
+  document.body.style.backgroundColor = "#9f52ccc7";
 }
 
 
@@ -48,3 +52,4 @@ function myfunction() {
   node.appendChild(textnode);
   document.getElementById("answerChoices").appendChild(node);
 }
+
