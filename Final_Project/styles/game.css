@@ -11,7 +11,7 @@
 
 .choice-container:hover{
     cursor: pointer;
-box-shadow: 0 0.4rem 0 rgba(86, 185,235, 0.5);
+box-shadow: 0 0.4rem 0 rgba(218, 127, 241, 0.5);
 transform: translateY(-0.1rem);
 transition: transform 150ms;
 
@@ -19,7 +19,7 @@ transition: transform 150ms;
 
 .choice-prefix{
     padding: 1.5rem 2.5rem;
-    background-color: #56a5eb;
+    background-color: #491855;
     color: white;
  
 }
@@ -30,11 +30,11 @@ transition: transform 150ms;
 }
 
 .correct{
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.411);
 }
 
 .incorrect{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.411);
 }
 
 /* HUD */
@@ -51,9 +51,9 @@ transition: transform 150ms;
 
 .hud-main-text{
     text-align: center;
+    color: rgb(175, 31, 132);
 }
 
 .container{
     text-align: center;
-
 }
